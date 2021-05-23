@@ -27,7 +27,7 @@ export default class Counter extends React.Component {
 
   componentDidMount() {
     console.log("Component Did Mount");
-    this.setTimeout(() => {
+    setTimeout(() => {
       this.setState({ initializing: false });
     }, 500);
     console.log("-------------------");
